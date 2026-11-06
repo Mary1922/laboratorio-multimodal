@@ -79,6 +79,39 @@ body{font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;-webkit
 .primary,.mini-btn{box-shadow:0 4px 12px #38377815}
 @media(max-width:740px){.lesson-content{font-size:14.5px}.lesson-content .recap-grid{grid-template-columns:1fr}.chapter-guide{padding:15px}.lesson-content table{display:block;overflow-x:auto}.lesson-content pre{padding:15px}.lesson-content .challenge-card{padding:0 13px 10px}}
 @media(prefers-reduced-motion:reduce){.intro-card,.answer-option,.chapter-guide-links a{transition:none!important}}
+
+.licencia-cc {
+  background: #f6f7fb;
+  color: #4a5672;
+  text-align: center;
+  padding: 24px 20px;
+  border-top: 1px solid #e4e7ef;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.licencia-cc p {
+  margin: 6px 0;
+}
+
+.licencia-cc a {
+  color: #4f46e5;
+  text-decoration: underline;
+}
+
+.iconos-cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.iconos-cc img {
+  width: 22px;
+  height: 22px;
+}
+
 </style></head>
 <body><div class="site-shell">
 <aside aria-label="Navegación del curso" class="sidebar"><a class="brand" href="#inicio"><span class="brand-mark">◈</span><span><strong>LABORATORIO</strong><small>MULTIMODAL / 01</small></span></a><p class="sidebar-label">TU RECORRIDO · 45 MIN</p><div class="progress-wrap"><div class="progress-track"><div id="progress-bar"></div></div><p id="progress-label">0 de 7 capítulos completados</p></div><nav id="sidebar-nav"><button class="nav-item" data-go="1"><span class="nav-no">01</span><span class="nav-name">El caso</span><span class="nav-time">4 min</span><span aria-label="Completado" class="nav-done">●</span></button>
@@ -516,7 +549,36 @@ print(respuesta.output_text)
 <hr/>
 <p><strong>Nota editorial:</strong> material original de autoaprendizaje; los datos, la fotografía descrita y las respuestas sobre el garaje son supuestos didácticos. Los productos, límites, modelos y tarifas de proveedores pueden cambiar; consulta siempre la documentación oficial antes de desplegar una aplicación.</p>
 </div><button class="ghost" data-go="1">↶ Volver al primer capítulo</button></section></div><aside class="right-rail" id="right-rail"><div class="rail-inner"><p class="rail-kicker">MESA DE EXPERIMENTOS</p><div id="activity-panel"></div><div class="tip"><span>◎ CONSEJO</span><p>La IA puede describir una escena con soltura y aun así equivocarse. Separa observación, hipótesis y verificación.</p></div></div></aside></div>
-</main><footer><span>LABORATORIO MULTIMODAL · MATERIAL DE AUTOAPRENDIZAJE</span><span>Imagen del caso y respuestas simuladas: material didáctico.</span></footer></div></div>
+</main><footer><span>LABORATORIO MULTIMODAL · MATERIAL DE AUTOAPRENDIZAJE</span><span>Imagen del caso y respuestas simuladas: material didáctico.</span></footer>
+<div class="licencia-cc">
+  <p>
+    <a href="https://mary1922.github.io/laboratorio-multimodal/">
+      Laboratorio Multimodal: Más allá de las palabras
+    </a>
+    © 2026 María Roldán.
+  </p>
+
+  <p>
+    Los contenidos educativos originales de esta web están
+    bajo la licencia
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es"
+       target="_blank" rel="noopener noreferrer">
+      Creative Commons CC BY-NC-SA 4.0 Internacional
+    </a>.
+  </p>
+
+  <div class="iconos-cc">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+         alt="Creative Commons">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+         alt="Reconocimiento">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"
+         alt="No comercial">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
+         alt="Compartir igual">
+  </div>
+</div>
+</div></div>
 <script>
 /* Laboratorio multimodal: simulaciones deterministas, sin llamadas a ninguna API. */
 (() => {
