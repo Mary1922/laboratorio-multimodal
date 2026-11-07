@@ -35,6 +35,15 @@ Al completar el laboratorio, el estudiante será capaz de:
 - Reconocer limitaciones, errores de interpretación y riesgos de seguridad.
 - Identificar cómo incorporar capacidades multimodales a una aplicación desarrollada en Python.
 
+## 📥 Guía didáctica descargable
+
+Además del laboratorio interactivo, está disponible una **guía de autoaprendizaje en PDF** con las explicaciones completas de los siete capítulos, ejemplos, ejercicios con soluciones razonadas, glosario y referencias técnicas.
+
+📘 **[Descargar guía completa en PDF](docs/guia-modelos-multimodales.pdf)**
+
+El documento puede consultarse sin conexión y utilizarse como material de estudio o repaso.
+
+**Duración orientativa:** 45 minutos de lectura y actividades principales.
 ---
 
 ## 🕵️ 2. El hilo conductor: una investigación visual
